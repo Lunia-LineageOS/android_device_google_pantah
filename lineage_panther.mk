@@ -29,4 +29,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildSystemFingerprint=google/generic_system_google/generic:17/CP2A.260705.006/15641320:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
+$(call inherit-product, vendor/google/faceunlock/config.mk)
+$(call inherit-product, vendor/google/repairmode/repairmode-vendor.mk)
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
