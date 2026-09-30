@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     ONSOverlayVendorPantah \
     PixelNfcOverlayPantah \
     SafetyRegulatoryInfoOverlayProductPantah \
-    SystemUIGoogleOverlayVendorPantah
+    SystemUIGoogleOverlayVendorPantah \
+    UdfpsOverlay
 
 PRODUCT_PACKAGES += \
     DMServiceOverlayProductGs201 \
