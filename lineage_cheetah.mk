@@ -31,4 +31,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 $(call inherit-product, vendor/google/faceunlock/config.mk)
 $(call inherit-product, vendor/google/repairmode/repairmode-vendor.mk)
+$(call inherit-product, vendor/kernelsu/config.mk)
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
