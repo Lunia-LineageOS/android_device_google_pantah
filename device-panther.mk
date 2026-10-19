@@ -42,9 +42,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayPanther
 
-# PowerShare
-include hardware/google/pixel/powershare/device.mk
-
 # Preinstalled packages
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/sysconfig/preinstalled-packages-prebuilt-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-prebuilt-product.xml \

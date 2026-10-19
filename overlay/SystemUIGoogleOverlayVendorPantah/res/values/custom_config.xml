@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether reverse wireless charging (Battery Share) is supported -->
+    <bool name="config_wlc_support_enabled">true</bool>
+
+    <!-- Whether NFC polling must be paused while reverse wireless charging -->
+    <bool name="config_nfc_conflict_with_wlc">true</bool>
+
+    <!-- Whether NFC polling must be paused while the USB audio devices below are attached -->
+    <bool name="config_nfc_conflict_with_usb_audio">true</bool>
+    <integer-array name="config_nfc_conflict_with_usb_audio_vendorid">
+        <item>6353</item>
+    </integer-array>
+    <integer-array name="config_nfc_conflict_with_usb_audio_productid">
+        <item>20532</item>
+    </integer-array>
+</resources>
